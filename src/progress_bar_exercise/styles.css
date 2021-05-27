@@ -5,8 +5,6 @@
   left: 0;
   top: 0;
   background: linear-gradient(to right, orange, red);
-  height: 6px;
-  opacity: 1;
 }
 
 .fetching {
@@ -37,6 +35,7 @@
   padding: 8px 12px;
   font-size: 14px;
   border-radius: 30px;
+  margin: 10px 0;
 }
 
 .button:active {
