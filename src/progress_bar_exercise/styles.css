@@ -1,0 +1,63 @@
+.progress-bar {
+  height: 6px;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, orange, red);
+  height: 6px;
+  opacity: 1;
+}
+
+.fetching {
+  transition: width 15s;
+  width: 90%;
+}
+
+.fetched {
+  width: 100%;
+  transition: width 1s;
+}
+
+.notFetched {
+  width: 0;
+  opacity: 0;
+}
+
+.invisible {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button-start {
+  margin-right: 10px;
+  color: #00c1a6;
+  border: 1px solid #00c1a6;
+}
+
+.button-start:hover {
+  border: 2px solid #00c1a6;
+}
+
+.button-finish {
+  color: red;
+  border: 1px solid red;
+}
+
+.button-finish:hover {
+  border: 2px solid red;
+}
